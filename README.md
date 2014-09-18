@@ -31,6 +31,7 @@ aa<-read.table("tidyMeanData.txt")
 ##Data Structure
 The data in *tidyMeanData.txt* are organized as follows:
 [Columns Number] "Description"
+
 [1] Subject ID
 [2] Average when LAYING
 [3] Average when SITTING
