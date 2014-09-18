@@ -20,7 +20,7 @@ It will then
 2. extract only the values related to means and relevant standard deviations (using the *features.txt* file)
 3. Will generate human readable descriptions of the different activities (e.g. WALKING, LAYING etc.)
 4. Will split the data by Subject, and calculate the average mean and average standard deviation for each subject during each activity.
-5) Will produce a data frame saved to text file (*tidyMeanData.txt*). This data frame will include the mean values of each of the observations and their standard deviations separated by exercise activity (See column 81)  and subject ID (see column 1).
+5. Will produce a data frame saved to text file (*tidyMeanData.txt*). This data frame will include the mean values of each of the observations and their standard deviations separated by exercise activity (See column 81)  and subject ID (see column 1).
 
 The data can be read back in using
 
