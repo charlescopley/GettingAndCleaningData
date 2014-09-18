@@ -16,10 +16,11 @@ tidyMeanData.txt
 
 The data can be read back in using
 
+```
 aa<-read.table("tidyMeanData.txt")
-
+```
 ##Data Structure
-The data in "tidyMeanData.txt" are organized as follows:
+The data in *tidyMeanData.txt* are organized as follows:
 
 [Column] "Description"
 
@@ -106,7 +107,7 @@ The data in "tidyMeanData.txt" are organized as follows:
 [81] "Activity" 
 
 ##Running the script
-The script (project.R) is run at the highest level and relies on the availability of the following files:
+The script (*project.R*) is run at the highest level and relies on the availability of the following files:
 
 1. *"./projectDataset/train/subject_train.txt"*
 2. *"./projectDataset/train/X_train.txt"*
@@ -122,9 +123,10 @@ These are data files containing training and test data from smartphones.
 File Descriptions
 --------------------
 1. *subject_train.txt* and *subject_test.txt*  data files that contain the number of the subject being measured.
-2. X_train.txt and X_test.txt  are the sensor values recorded
-3. y_train.txt and y_test.txt  are descriptions of the type of exercise the subject was undergoing.
-4. features.txt  describes the layout of the individual raw data files
-5. activity_labels.txt  describes the type of activity the subject underwent
+2. *X_train.txt* and *X_test.txt*  are the sensor values recorded
+3. *y_train.txt* and *y_test.txt*  are descriptions of the type of exercise the subject was undergoing.
+4. *features.txt*  describes the layout of the individual raw data files
+5. *activity_labels.txt*  describes the type of activity the subject underwent
+6. *tidyMeanData.txt* is the output of the *project.R* script and will read through the above files and create averaged data. 
 
 
