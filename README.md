@@ -108,24 +108,23 @@ The data in "tidyMeanData.txt" are organized as follows:
 ##Running the script
 The script (project.R) is run at the highest level and relies on the availability of the following files:
 
-1. "./projectDataset/train/subject_train.txt"
-2. "./projectDataset/train/X_train.txt"
-3. "./projectDataset/train/y_train.txt"
-4. "./projectDataset/test/subject_test.txt" 
-5. "./projectDataset/test/X_test.txt" 
-6. "./projectDataset/test/y_test.txt"
-7. "./projectDataset/features.txt" 
-8. "./projectDataset/activity_labels.txt"
+1. *"./projectDataset/train/subject_train.txt"*
+2. *"./projectDataset/train/X_train.txt"*
+3. *"./projectDataset/train/y_train.txt"*
+4. *"./projectDataset/test/subject_test.txt"* 
+5. *"./projectDataset/test/X_test.txt"* 
+6. *"./projectDataset/test/y_test.txt"*
+7. *"./projectDataset/features.txt"* 
+8. *"./projectDataset/activity_labels.txt"*
 
 These are data files containing training and test data from smartphones. 
 
-The raw data are organized as follows:
-Files| Description
+File Descriptions
 --------------------
-1. subject_train.txt and subject_test.txt | data files that contain the number of the subject being measured.
-2. X_train.txt and X_test.txt | are the sensor values recorded
-3. y_train.txt and y_test.txt | are descriptions of the type of exercise the subject was undergoing.
-4. features.txt | describes the layout of the individual raw data files
-5. activity_labels.txt | describes the type of activity the subject underwent
+1. *subject_train.txt* and *subject_test.txt*  data files that contain the number of the subject being measured.
+2. X_train.txt and X_test.txt  are the sensor values recorded
+3. y_train.txt and y_test.txt  are descriptions of the type of exercise the subject was undergoing.
+4. features.txt  describes the layout of the individual raw data files
+5. activity_labels.txt  describes the type of activity the subject underwent
 
 
