@@ -7,7 +7,8 @@ GettingAndCleaningData
 This repo contains code to clean a series of data files that include information about smartphone tests of subject fitness and movements. Further information can be found in the projectDataset directory.
 
 To reproduce the data 
-1. make sure you have the appropriate raw data files (described below) 
+
+1. make sure you have the appropriate raw data files (described below)
 2. Run  *project.R* at the highest level 
 
 This will read in the appropriate data file and produce a data frame saved to text file. This data frame will include the mean values of each of the observations and their standard deviations separated by exercise activity (See column 81)  and subject ID (see column 1).
