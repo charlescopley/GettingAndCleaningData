@@ -32,13 +32,13 @@ aa<-read.table("tidyMeanData.txt")
 The data in *tidyMeanData.txt* are organized as follows:
 [Columns Number] "Description"
 
-[1] Subject ID
-[2] Average when LAYING
-[3] Average when SITTING
-[4] Average when STANDING
-[5] Average when WALKING
-[6] Average when WALKING_DOWNSTAIRS
-[7] Average when WALKING_UPSTAIRS
+1. Subject ID
+2. Average when LAYING
+3. Average when SITTING
+4. Average when STANDING
+5. Average when WALKING
+6. Average when WALKING_DOWNSTAIRS
+7. Average when WALKING_UPSTAIRS
 
 [Rows Number] "Description"
 
