@@ -144,3 +144,18 @@ The data in *tidyMeanData.txt* are organized as follows:
 [77] "fBodyBodyAccJerkMag-std()"      
 [78] "fBodyBodyGyroMag-std()"         
 [79] "fBodyBodyGyroJerkMag-std()"    
+
+##Variable Names
+dataTrainSubject -- data from subject_train.txt
+dataTrainX 	 -- data from X_train.txt
+dataTrainy 	 -- data from y_train.txt
+dataTestSubject  -- data from subject_test.txt
+dataTestX 	 -- data from X_test.txt
+dataTesty 	 -- data from y_test.txt
+dataFullSubject  -- combined data from subject_train.txt and subject_test.txt
+dataFullX 	 -- combined data from X_train.txt and X_test.txt
+dataFully 	 -- combined data from y_train.txt and y_test.txt
+combinedData	 -- combined data from all the text files into one file
+ddFeatures	 -- all the features defined in features.txt
+extractedData    -- all the data with std and mean in the column names
+finalMeanData	 -- all the std and mean data values average by subject and activity
