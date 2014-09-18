@@ -10,12 +10,16 @@ The script
 
 project.R
 
-will read in the appropriate data file and produce a data frame saved to text file 
+will read in the appropriate data file and produce a data frame saved to text file. This data frame will include the mean values of each of the observations and their standard deviations separated by exercise activity (See column 81)  and subject ID (see column 1).
 
 tidyMeanData.txt
 
+The data can be read back in using
+
+aa<-read.table("tidyMeanData.txt")
+
 ##Data Structure
-The data are organized as follows:
+The data in "tidyMeanData.txt" are organized as follows:
 
 [Column] "Description"
 
@@ -104,14 +108,14 @@ The data are organized as follows:
 ##Running the script
 The script (project.R) is run at the highest level and relies on the availability of the following files:
 
-1) "./projectDataset/train/subject_train.txt"
-2) "./projectDataset/train/X_train.txt"
-3) "./projectDataset/train/y_train.txt"
-4) "./projectDataset/test/subject_test.txt" 
-5) "./projectDataset/test/X_test.txt" 
-6) "./projectDataset/test/y_test.txt"
-7) "./projectDataset/features.txt" 
-8) "./projectDataset/activity_labels.txt"
+*1) "./projectDataset/train/subject_train.txt"
+*2) "./projectDataset/train/X_train.txt"
+*3) "./projectDataset/train/y_train.txt"
+*4) "./projectDataset/test/subject_test.txt" 
+*5) "./projectDataset/test/X_test.txt" 
+*6) "./projectDataset/test/y_test.txt"
+*7) "./projectDataset/features.txt" 
+*8) "./projectDataset/activity_labels.txt"
 These are data files containing training and test data from smartphones. 
 
 The raw data are organized as follows:
