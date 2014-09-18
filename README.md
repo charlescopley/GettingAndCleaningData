@@ -16,6 +16,7 @@ To reproduce the data
 This will read in the appropriate data files.
 
 It will then 
+
 1. combine the training and test data sets, 
 2. extract only the values related to means and relevant standard deviations (using the *features.txt* file)
 3. Will generate human readable descriptions of the different activities (e.g. WALKING, LAYING etc.)
