@@ -6,13 +6,15 @@ GettingAndCleaningData
 ##Description
 This repo contains code to clean a series of data files that include information about smartphone tests of subject fitness and movements. Further information can be found in the projectDataset directory.
 
-The script 
+To reproduce the data 
+1. make sure you have the appropriate raw data files (described below) 
+2. Run  *project.R* at the highest level 
 
-project.R
+This will read in the appropriate data file and produce a data frame saved to text file. This data frame will include the mean values of each of the observations and their standard deviations separated by exercise activity (See column 81)  and subject ID (see column 1).
 
-will read in the appropriate data file and produce a data frame saved to text file. This data frame will include the mean values of each of the observations and their standard deviations separated by exercise activity (See column 81)  and subject ID (see column 1).
+The output data are stored in 
 
-tidyMeanData.txt
+*tidyMeanData.txt*
 
 The data can be read back in using
 
@@ -128,5 +130,5 @@ File Descriptions
 4. *features.txt*  describes the layout of the individual raw data files
 5. *activity_labels.txt*  describes the type of activity the subject underwent
 6. *tidyMeanData.txt* is the output of the *project.R* script and will read through the above files and create averaged data. 
-
+7. *project.R* is the highest level script that will produce *tidyMeanData.txt* from the raw files.
 
