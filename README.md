@@ -120,10 +120,12 @@ The script (project.R) is run at the highest level and relies on the availabilit
 These are data files containing training and test data from smartphones. 
 
 The raw data are organized as follows:
-subject_train.txt and subject_test.txt are data files that contain the number of the subject being measured.
-X_train.txt and X_test.txt are the sensor values recorded
-y_train.txt and y_test.txt are descriptions of the type of exercise the subject was undergoing.
-features.txt describes the layout of the individual raw data files
-activity_labels.txt describes the type of activity the subject underwent
+Files| Description
+--------------------
+1. subject_train.txt and subject_test.txt | data files that contain the number of the subject being measured.
+2. X_train.txt and X_test.txt | are the sensor values recorded
+3. y_train.txt and y_test.txt | are descriptions of the type of exercise the subject was undergoing.
+4. features.txt | describes the layout of the individual raw data files
+5. activity_labels.txt | describes the type of activity the subject underwent
 
 
