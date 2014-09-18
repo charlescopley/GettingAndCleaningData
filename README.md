@@ -146,4 +146,4 @@ File Descriptions
 5. *activity_labels.txt*  describes the type of activity the subject underwent
 6. *tidyMeanData.txt* is the output of the *project.R* script and will read through the above files and create averaged data. 
 7. *project.R* is the highest level script that will produce *tidyMeanData.txt* from the raw files.
-
+8. *Subject_x.txt* the data separated into individual filenames for each participant
